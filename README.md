@@ -1,33 +1,23 @@
-# Project Readme: Stopwatch and Standard Calculator with Complex Expression Support
+# EUI Training Projects with Valeo Group
 
-Welcome to the readme file for the Stopwatch and Standard Calculator projects! This document provides an overview of each project, instructions for usage, and other relevant information.
+Welcome to the repository for EUI training projects in collaboration with Valeo Group! This folder contains various projects and assignments completed during the training program.
 
-## Stopwatch Project
+## Group Members
 
-### Overview
+- Elhosseni Gamal
+- Ahmed Abdalla
 
-The Stopwatch project is a simple digital stopwatch application built to help you measure time intervals with precision. Whether you need to time a workout, a cooking session, or any other activity, this stopwatch has got you covered.
+## Projects Overview
 
-### Features
+1. Stopwatch Project
+2. Standard Calculator with Complex Expression Support
 
-- **Start/Stop:** Begin and pause the stopwatch as needed.
-- **Lap Timer:** Capture lap times while the stopwatch is running.
-- **Reset:** Reset the stopwatch to zero.
+Feel free to explore each project folder to find documentation, source code, and any additional resources related to each assignment.
 
-## Standard Calculator with Complex Expression Support
+## Feedback and Collaboration
 
-### Overview
+Your feedback and collaboration are greatly appreciated! If you have any suggestions for improvements, find any issues, or would like to contribute enhancements to the projects, please feel free to reach out, create issues, or submit pull requests.
 
-The Standard Calculator project is a versatile calculator application designed to handle standard arithmetic operations as well as complex mathematical expressions. Whether you're calculating simple addition or solving complex equations, this calculator is up to the task.
+Thank you for your dedication to the EUI training program with Valeo Group. We hope these projects help you and Ahmed Abdalla develop valuable skills and insights for your future endeavors.
 
-### Features
-
-- **Basic Arithmetic:** Addition, subtraction, multiplication, and division.
-- **Complex Expressions:** Support for parentheses and operator precedence.
-- **Clear and Undo:** Clear the input and undo the last entry.
-
-## Feedback and Contributions
-
-Your feedback and contributions are highly valued! If you find any issues, have suggestions for improvements, or would like to contribute new features, please feel free to submit a pull request or create an issue in the GitHub repository.
-
-Thank you for using the Stopwatch and Standard Calculator projects. We hope these tools enhance your productivity and make your tasks more convenient!
+Happy coding!
