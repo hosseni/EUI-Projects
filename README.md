@@ -17,7 +17,3 @@ Feel free to explore each project folder to find documentation, source code, and
 ## Feedback and Collaboration
 
 Your feedback and collaboration are greatly appreciated! If you have any suggestions for improvements, find any issues, or would like to contribute enhancements to the projects, please feel free to reach out, create issues, or submit pull requests.
-
-Thank you for your dedication to the EUI training program with Valeo Group. We hope these projects help you and Ahmed Abdalla develop valuable skills and insights for your future endeavors.
-
-Happy coding!
