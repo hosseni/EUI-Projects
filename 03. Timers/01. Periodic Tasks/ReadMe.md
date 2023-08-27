@@ -43,18 +43,8 @@ Two timers are utilized for this project:
 2. Task 2: Execute another task every 2 seconds.
    - Implement the task logic within the timer interrupt handler.
 
-## Usage
-
-1. Compile and flash the code onto your microcontroller.
-
-2. Observe the LED blinking every 30 seconds.
-
-3. The other task will execute every 2 seconds, which can be verified through another output, log, or debugging mechanism.
 
 ## Contributing
 
 Contributions are welcome! If you find any issues or improvements, feel free to create an issue or pull request in this repository.
 
-## License
-
-This project is licensed under the [Specify License Name and URL] License - see the [LICENSE](LICENSE) file for details.
