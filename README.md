@@ -11,6 +11,10 @@ Welcome to the repository for EUI training projects in collaboration with Valeo 
 
 1. Stopwatch Project
 2. Standard Calculator with Complex Expression Support
+3. Timers Projects
+   - Periodic Timer
+   - One-Shot Timer
+   - PWM (Pulse Width Modulation)
 
 Feel free to explore each project folder to find documentation, source code, and any additional resources related to each assignment.
 
