@@ -5,7 +5,7 @@
  *      Author: Hosseni Gamal , Ahmed Abdalla
  */
 
-#include "app.h"
+#include "autonomous_car.h"
 
 
 ldrSensor_t  ldr_left        = {GPIO_PORTE_BASE, GPIO_PIN_3, 0, ADC_CTL_CH0};
@@ -58,7 +58,7 @@ void Wait(uint32_t time){
     }
 }
 
-void sysInit ()
+void autonomousCarInit ()
 {
     SysCtlClockSet(SYSCTL_SYSDIV_1|SYSCTL_USE_PLL|SYSCTL_OSC_MAIN|SYSCTL_XTAL_16MHZ);
     SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOB);
@@ -76,7 +76,7 @@ void sysInit ()
     robotInit();
 
 }
-void sysRun()
+void autonomousCarRun()
 {
     uint16_t destance = 0;
     uint32_t ldr_right_read = 0;

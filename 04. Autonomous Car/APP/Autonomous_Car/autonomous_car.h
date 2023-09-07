@@ -7,9 +7,9 @@
 #ifndef APPLICATION_APP_H_
 #define APPLICATION_APP_H_
 
-#include "../HAL/LDR_SENSOR/ldr_sensor.h"
-#include "../HAL/MOTOR/motor.h"
-#include "../HAL/ULTRASONIC_SENSOR/ultrasonic_sensor.h"
+#include "../../HAL/LDR_SENSOR/ldr_sensor.h"
+#include "../../HAL/MOTOR/motor.h"
+#include "../../HAL/ULTRASONIC_SENSOR/ultrasonic_sensor.h"
 #include <stdbool.h>
 #include "inc/hw_memmap.h"
 #include "inc/hw_types.h"
@@ -28,8 +28,8 @@
 #include "HAL/MOTOR/motor.h"
 
 
-void sysInit ();
-void sysRun();
+void autonomousCarInit ();
+void autonomousCarRun();
 
 
 

@@ -1,13 +1,13 @@
-#include "APP/app.h"
+#include "APP/Autonomous_Car/autonomous_car.h"
 
 int main(int argc, char **argv)
 {
     // Initialize the system
-    sysInit();
+    autonomousCarInit();
 
     while(1)
     {
         // Run the system
-        sysRun();
+        autonomousCarRun();
     }
 }

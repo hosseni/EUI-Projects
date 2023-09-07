@@ -14,9 +14,6 @@ void carSideInit(carSide_t * sideA , carSide_t * sideB)
     }else{
 
 
-        /*unlock pins*/
-        //GPIOUnlockPin(sideA->carSidePort , sideA->carSideDir1Pin|sideA->carSideDir2Pin|sideA->carSideEnPin);
-        //GPIOUnlockPin(sideB->carSidePort , sideB->carSideDir1Pin|sideB->carSideDir2Pin|sideB->carSideEnPin);
 
         /*pins direction*/
         /*side A*/
