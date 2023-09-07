@@ -15,6 +15,7 @@ Welcome to the repository for EUI training projects in collaboration with Valeo 
    - Periodic Timer
    - One-Shot Timer
    - PWM (Pulse Width Modulation)
+4. Autonomous Car
 
 Feel free to explore each project folder to find documentation, source code, and any additional resources related to each assignment.
 
