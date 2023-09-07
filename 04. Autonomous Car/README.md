@@ -1,19 +1,11 @@
-# Project Readme: Standard Calculator with Complex Expression Support
+# Autonomous Car - Light Following & Obstacle Avoidance
 
-Welcome to the readme file for the Standard Calculator project! This document provides an overview of the Standard Calculator project, instructions for usage, and other relevant information.
+## Introduction
 
-## Overview
-
-The Standard Calculator project is a versatile calculator application designed to handle standard arithmetic operations as well as complex mathematical expressions. Whether you're calculating simple addition or solving complex equations, this calculator is up to the task.
+This project is an autonomous car that utilizes Light Dependent Resistors (LDRs) to follow a light source and an ultrasonic sensor to avoid obstacles. The system is based on the Texas Instruments Tiva C series microcontroller (TivaC) and is programmed using TivaWare. This README provides an overview of the project, hardware requirements, setup instructions, and usage guidelines.
 
 ## Features
 
-- **Basic Arithmetic:** Addition, subtraction, multiplication, and division.
-- **Complex Expressions:** Support for parentheses and operator precedence.
-- **Clear and Undo:** Clear the input and undo the last entry.
+- **Light Following**: The car autonomously follows a light source by adjusting its direction based on the intensity of light received by LDR sensors.
 
-## Feedback and Contributions
-
-Your feedback and contributions are highly valued! If you find any issues, have suggestions for improvements, or would like to contribute new features, please feel free to submit a pull request or create an issue in the GitHub repository.
-
-Thank you for using the Standard Calculator project. We hope this tool enhances your calculation needs and makes your tasks more convenient!
+- **Obstacle Avoidance**: An ultrasonic sensor is used to detect obstacles in the car's path, allowing it to make necessary adjustments to avoid collisions.
