@@ -1,9 +1,8 @@
-/*
+/******************************
  * LAB2.c
  *
- *  Created on: ??þ/??þ/????
- *      Author: B e l a l
- */
+ *      Author: Hosseni
+ *******************************/
 
 #include <stdio.h>
 #include <stdlib.h>
