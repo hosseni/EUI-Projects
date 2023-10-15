@@ -1,17 +1,7 @@
 /*
  * File: DIO.h
  * Created Date: 2022-07-25
- * Author: Mohamed Atef
- * -----
- * Last Modified: Mon Jul 25 2022
- * Modified By: Mohamed Atef
- * -----
- * Copyright (c) 2022
- * -----
- * Description:
- * -----
- * HISTORY:
- * Date      	By	Comments
+ * Author: Elhosseni Gamal
  * ----------	---	---------------------------------------------------------
  */
 
@@ -29,14 +19,23 @@
 /************************************
  * GLOBAL CONSTANT MACROS AND DEFINES
  ************************************/
+#define DIO_PIN_NUM         64U
+#define DIO_PORT_NUM        6U
+#define DIO_PORT_RW       255U
 
-/************************************
- * GLOBAL FUNCTION MACROS
- ************************************/
+#define STD_HIGH            1U
+#define STD_LOW             0U
+
+#define DIO_PORT_PIN_NUM    8U
+
 
 /************************************
  * GLOBAL TYPES
  ************************************/
+typedef uint8_t Dio_ChannelType;
+typedef uint8_t Dio_PortType;
+typedef uint8_t Dio_LevelType;
+typedef uint8_t Dio_PortLevelType;
 
 /************************************
  * GLOBAL DATA PROTOTYPES
@@ -45,6 +44,7 @@
 /************************************
  * GLOBAL FUNCTION PROTOTYPES
  ************************************/
+
 DIO_LevelType DIO_ReadChannel(DIO_ChannelType Channelid);
 void DIO_WriteChannel(DIO_ChannelType Channelid, DIO_LevelType Level);
 DIO_PortLevelType DIO_ReadPort(DIO_PortType Portid);
