@@ -1,18 +1,8 @@
 /*
  * File: tm4c123gh6pm_hw.h
- * Created Date: 2022-07-12
- * Author: Mohamed Atef
- * -----
- * Last Modified: Tue Jul 12 2022
- * Modified By: Mohamed Atef
- * -----
- * Copyright (c) 2022
- * -----
- * Description: Header file including all hardware definitions
- * (such as registers) required for tm4c123gh6pm MCU drivers
- * -----
- * HISTORY:
- * Date      	By	Comments
+ * Created Date: 14/10/2023
+ * Author: Elhosseni Gamal
+
  * ----------	---	---------------------------------------------------------
  */
 

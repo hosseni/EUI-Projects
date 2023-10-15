@@ -24,22 +24,6 @@
 /************************************
  * GLOBAL FUNCTIONS
  ************************************/
-DIO_LevelType DIO_ReadChannel(DIO_ChannelType Channelid)
-{
-    DIO_LevelType value;
-    
-    uint32 bitPos;
-    uint32 regAdr;
-    
-    bitPos = Channelid%8u;
-    
-    /* This should be replaced with an array access (or a hash function) to reduce access time*/
-    regAdr = (Channelid/8u)*(GPIO_B_AHB_BASE-GPIO_A_AHB_BASE) + 0x3FCu + GPIO_A_AHB_BASE; /* The 0x3FCu is essential to allow reading from the GPIO regsiter (check datasheet) */
-    
-    value = (DIO_LevelType)GET_BIT(ACCESS_ADR(regAdr), bitPos);
-    return value;
-}
-
 void DIO_WriteChannel(DIO_ChannelType Channelid, DIO_LevelType Level)
 {
     uint32 bitPos;
@@ -52,13 +36,29 @@ void DIO_WriteChannel(DIO_ChannelType Channelid, DIO_LevelType Level)
     
     if(Level == HIGH)
     {
+        /*Bit Banding*/
         ACCESS_BITBAND_ADR(regOffset, bitPos, BITBAND_PRPH_ALIAS_BASE) = 1;
     }
     else
     {
+        /*Bit Banding*/
         ACCESS_BITBAND_ADR(regOffset, bitPos, BITBAND_PRPH_ALIAS_BASE) = 0;
     }
 }
+
+DIO_LevelType DIO_ReadChannel(DIO_ChannelType Channelid)
+{
+    DIO_LevelType value;
+    
+    uint32 bitPos;
+    uint32 regAdr;
+    
+    bitPos = Channelid%8u;
+    
+    regOffset = (Channelid/8u)*(GPIO_B_APB_BASE-GPIO_A_APB_BASE) + 0x3FCu + GPIO_A_APB_BASE - BITBAND_PRPH_BASE; /* The 0x3FCu is essential to allow writing to the GPIO regsiter (check datasheet) */
+    value = ACCESS_BITBAND_ADR(regOffset, bitPos, BITBAND_PRPH_ALIAS_BASE);
+
+    return value;
 
 DIO_PortLevelType DIO_ReadPort(DIO_PortType Portid)
 {
