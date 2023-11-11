@@ -16,6 +16,10 @@ Welcome to the repository for EUI training projects in collaboration with Valeo 
    - One-Shot Timer
    - PWM (Pulse Width Modulation)
 4. Autonomous Car
+5. Custom Scheduler
+6. Manual Task Switching
+7. Secure Bootloader
+8. DIO AUTOSAR
 
 Feel free to explore each project folder to find documentation, source code, and any additional resources related to each assignment.
 
