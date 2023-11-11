@@ -6,6 +6,8 @@ Welcome to the repository for EUI training projects in collaboration with Valeo 
 
 - Elhosseni Gamal
 - Ahmed Abdalla
+- Mahmoud Badr
+- Mahmoud Mohasseb
 
 ## Projects Overview
 
